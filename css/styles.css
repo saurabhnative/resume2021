@@ -4356,6 +4356,7 @@ input[type=button].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  min-height: 50px;
 }
 
 .card-subtitle {
@@ -4421,6 +4422,12 @@ input[type=button].btn-block {
   flex-shrink: 0;
   width: 100%;
 }
+
+.card-img-top {
+  min-height: 150px;
+  max-height: 150px;
+}
+
 
 .card-img,
 .card-img-top {
